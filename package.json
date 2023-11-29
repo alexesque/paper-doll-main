@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "name": "paper-doll",
+    "author": "Jacob Baker-Kretzmar",
+    "license": "UNLICENSED",
+    "source": "index.js",
+    "main": "dist/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bakerkretzmar/paper-doll.git"
+    },
+    "scripts": {
+        "build": "rollup --config",
+        "css": "postcss index.css -o dist/index.css",
+        "prod": "NODE_ENV=production npm run css && npm run build",
+        "watch": "watch 'npm run prod' . --ignoreDirectoryPattern=/.*/"
+    },
+    "devDependencies": {
+        "@rollup/plugin-html": "^0.2.0",
+        "autoprefixer": "^9.8.5",
+        "cssnano": "^4.1.10",
+        "postcss-cli": "^7.1.1",
+        "prettier": "^2.0.5",
+        "rollup": "^2.21.0",
+        "rollup-plugin-terser": "^6.1.0",
+        "tailwindcss": "^1.5.1",
+        "watch": "^1.0.2"
+    },
+    "prettier": {
+        "printWidth": 160,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "es5"
+    }
+}
