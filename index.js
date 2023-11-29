@@ -51,7 +51,7 @@ for (let category in clothes) {
                 img.classList.add('w-20', 'half-doll-width');
             }
             img.classList.add('select-none');
-            img.src = `https://raw.githubusercontent.com/bakerkretzmar/paper-doll/master/img/${item}.png`;
+            img.src = `https://raw.githubusercontent.com/alexesque/paper-doll-main/main/img/${item}.png`;
 
             const wrapper = document.createElement('div');
             wrapper.classList.add('w-24');

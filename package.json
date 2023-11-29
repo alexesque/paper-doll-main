@@ -7,7 +7,7 @@
     "main": "dist/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/bakerkretzmar/paper-doll.git"
+        "url": "https://github.com/alexesque/paper-doll-main.git"
     },
     "scripts": {
         "build": "rollup --config",
