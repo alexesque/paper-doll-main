@@ -90,7 +90,7 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
 
         document.onmouseup = (event) => {
             document.removeEventListener('mousemove', onMove);
-            item.style.zIndex = '100'
+            item.style.zIndex = '100';
 
             if (
                 event.clientX < dollArea.getBoundingClientRect().left ||
