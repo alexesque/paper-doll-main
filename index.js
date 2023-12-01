@@ -101,7 +101,7 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
             ) {
                 // If the item was dropped in the clothes area, put it away
                 item.classList.remove('active');
-                item.style.position = 'static';
+                item.style.position = 'absolute';
                 item.style.left = null;
                 item.style.top = null;
             }
