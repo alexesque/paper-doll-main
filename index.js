@@ -33,7 +33,7 @@ const clothes = {
     },
     underwear: {
         z: 10,
-        items: ['black-tights', 'cork', 'fishnets', 'orange-tights', 'purple-tights'],
+        items: ['black-tights', 'cork', 'fishnets', 'smoke', 'purple-tights'],
     },
 };
 
