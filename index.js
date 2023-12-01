@@ -78,6 +78,7 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
     item.onmousedown = (event) => {
         item.classList.add('active');
         item.style.position = 'absolute';
+        item.style.zIndex = '100';
         const offsetX = event.clientX - item.getBoundingClientRect().left;
         const offsetY = event.clientY - item.getBoundingClientRect().top;
 
