@@ -70,16 +70,14 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
     item.ondragstart = () => false;
     item.ondragend = () => false;
 
-    item.onClick= (event) => {
-        document.querySelectorAll('.last-active').forEach((el) => el.classList.remove('last-active'));
-        item.parentElement.classList.add('last-active');
-    };
 
     item.onmousedown = (event) => {
         item.classList.add('active');
         item.style.position = 'absolute';
         const offsetX = event.clientX - item.getBoundingClientRect().left;
         const offsetY = event.clientY - item.getBoundingClientRect().top;
+        document.querySelectorAll('.last-active').forEach((el) => el.classList.remove('last-active'));
+        item.parentElement.classList.add('last-active');
 
         const onMove = (event) => {
             item.style.left = `${event.pageX - offsetX}px`;
