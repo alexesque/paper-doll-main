@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "paper-doll",
-    "author": "Jacob Baker-Kretzmar",
+    "author": "alexesque",
     "license": "UNLICENSED",
     "source": "index.js",
     "main": "dist/index.js",
