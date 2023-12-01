@@ -78,7 +78,6 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
     item.onmousedown = (event) => {
         item.classList.add('active');
         item.style.position = 'absolute';
-        item.style.zIndex = '100';
         const offsetX = event.clientX - item.getBoundingClientRect().left;
         const offsetY = event.clientY - item.getBoundingClientRect().top;
 
@@ -91,6 +90,7 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
 
         document.onmouseup = (event) => {
             document.removeEventListener('mousemove', onMove);
+            item.style.zIndex = '100';
 
             if (
                 event.clientX < dollArea.getBoundingClientRect().left ||
