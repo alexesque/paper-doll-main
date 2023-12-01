@@ -2,14 +2,14 @@
     z-index: 100;
 }
 
-.doll-width {
+.bottle-width {
     width: 36rem;
 }
 
-.active .half-doll-width {
+.active .half-bottle-width {
     width: 18rem;
 }
-.active .five-eighths-doll-width {
+.active .five-eighths-bottle-width {
     width: 22.5rem;
 }
 
