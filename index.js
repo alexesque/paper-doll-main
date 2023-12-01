@@ -1,38 +1,38 @@
 const clothes = {
     accessories: {
-        z: 40,
+       
         items: ['red-gloves'],
     },
     bottoms: {
-        z: 50,
+        
         items: ['black-jeans', 'black-shorts', 'blue-jeans', 'green-pants', 'plaid-skirt', 'purple-slacks', 'quilt-skirt'],
     },
     hats: {
-        z: 90,
+        
         items: ['green-cowboy', 'red-cowboy'],
     },
     outerwear: {
-        z: 80,
+        
         items: ['leather-jacket', 'rain-coat'],
     },
     shoes: {
-        z: 30,
+        
         items: ['black-heels', 'converse', 'cowboy-boots', 'orange-heels', 'pink-heels'],
     },
     socks: {
-        z: 20,
+       
         items: ['green-socks', 'pink-socks', 'white-socks', 'yellow-socks'],
     },
     sweaters: {
-        z: 70,
+       
         items: ['black-sweater', 'orange-sweater'],
     },
     tops: {
-        z: 60,
+        
         items: ['button-up', 'pink-jumpsuit', 'red-dress', 'torn-tank', 'yellow-blouse', 'pink-tank-top', 'blue-dress'],
     },
     underwear: {
-        z: 10,
+        
         items: ['black-tights', 'bralette', 'fishnets', 'orange-tights', 'purple-tights'],
     },
 };
@@ -42,7 +42,7 @@ for (let category in clothes) {
         .map((item, i) => {
             const el = document.createElement('div');
             el.dataset.clothing = item;
-            el.style.zIndex = clothes[category].z;
+            el.style.zIndex = '1';
 
             const img = document.createElement('img');
             if (['leather-jacket', 'rain-coat', 'red-gloves'].includes(item)) {
@@ -90,7 +90,7 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
 
         document.onmouseup = (event) => {
             document.removeEventListener('mousemove', onMove);
-            item.style.zIndex = '100';
+            item.style.zIndex = '100'
 
             if (
                 event.clientX < dollArea.getBoundingClientRect().left ||
