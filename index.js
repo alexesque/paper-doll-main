@@ -28,7 +28,7 @@ const clothes = {
         items: ['black-sweater', 'orange-sweater'],
     },
     tops: {
-        z: 60,
+        z: 1,
         items: ['button-up', 'pink-jumpsuit', 'red-dress', 'torn-tank', 'yellow-blouse', 'pink-tank-top', 'blue-dress'],
     },
     underwear: {
