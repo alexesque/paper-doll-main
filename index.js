@@ -70,7 +70,7 @@ document.querySelectorAll('[data-clothing]').forEach((item) => {
     item.ondragstart = () => false;
     item.ondragend = () => false;
 
-    item.onmousedown = (event) => {
+    item.onClick= (event) => {
         document.querySelectorAll('.last-active').forEach((el) => el.classList.remove('last-active'));
         item.parentElement.classList.add('last-active');
     };
