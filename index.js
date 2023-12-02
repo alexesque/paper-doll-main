@@ -27,9 +27,9 @@ const clothes = {
         z: 70,
         items: ['black-sweater', 'orange-sweater'],
     },
-    tops: {
-        z: 1,
-        items: ['button-up', 'pink-jumpsuit', 'red-dress', 'torn-tank', 'yellow-blouse', 'pink-tank-top', 'blue-dress'],
+    midsize: {
+        z: 2,
+        items: ['wildrose1', 'pink-jumpsuit', 'red-dress', 'torn-tank', 'yellow-blouse', 'pink-tank-top', 'blue-dress'],
     },
     bottomlayerwide: {
         z: 10,
