@@ -45,8 +45,8 @@ for (let category in clothes) {
             el.style.zIndex = clothes[category].z;
 
             const img = document.createElement('img');
-            if (['leather-jacket', 'rain-coat', 'red-gloves'].includes(item)) {
-                img.classList.add('w-24', 'five-eighths-bottle-width');
+            if (['jamlid'].includes(item)) {
+                img.classList.add('w-35', 'bottle-width');
             } else {
                 img.classList.add('w-20', 'half-bottle-width');
             }

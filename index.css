@@ -12,5 +12,8 @@
 .active .five-eighths-bottle-width {
     width: 22.5rem;
 }
+.active .bottle-width {
+    width: 35rem;
+}
 
 @tailwind utilities;
