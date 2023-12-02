@@ -31,9 +31,9 @@ const clothes = {
         z: 1,
         items: ['button-up', 'pink-jumpsuit', 'red-dress', 'torn-tank', 'yellow-blouse', 'pink-tank-top', 'blue-dress'],
     },
-    underwear: {
+    bottomlayerwide: {
         z: 10,
-        items: ['black-tights', 'cork', 'fishnets', 'smoke', 'purple-tights'],
+        items: ['monstera', 'cork', 'fishnets', 'smoke', 'purple-tights'],
     },
 };
 
