@@ -7,10 +7,10 @@
 }
 
 .active .half-bottle-width {
-    width: 10rem;
+    width: 15rem;
 }
 .active .five-eighths-bottle-width {
-    width: 18rem;
+    width: 22.5rem;
 }
 
 @tailwind utilities;
