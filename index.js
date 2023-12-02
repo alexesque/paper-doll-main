@@ -33,7 +33,7 @@ const clothes = {
     },
     bottomlayerwide: {
         z: 10,
-        items: ['monstera', 'cork', 'fishnets', 'smoke', 'purple-tights'],
+        items: ['monstera', 'cork', 'jamlid', 'smoke', 'string'],
     },
 };
 
